@@ -1,0 +1,176 @@
+.contnr {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-box {
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  width: 42%;
+  text-align: center;
+  background: #161825;
+  border-radius: 30px;
+  padding: 10px 5px;
+  color: white;
+  font-size: 17px;
+  box-shadow: 0px 2px 8px 1px rgba(194, 194, 194, 1);
+}
+.box {
+  padding: 1em;
+  overflow: auto;
+  width: 50%;
+  border-radius: 10px;
+  border-color: 1px solid black;
+  -webkit-box-shadow: 0px 2px 8px 1px rgba(194, 194, 194, 1);
+  -moz-box-shadow: 0px 2px 8px 1px rgba(194, 194, 194, 1);
+  box-shadow: 0px 2px 8px 1px rgba(194, 194, 194, 1);
+  background: #fff;
+}
+
+.info {
+  padding: 0 20px;
+}
+
+.info p:nth-child(1) {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.info p:nth-child(2) {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  padding: 10px 10px;
+}
+
+form input {
+  height: 50px;
+  padding-left: 10px;
+  border-radius: 25px;
+  border: 2px solid #f5f4fc;
+  outline: none;
+  box-shadow: 0px 2px 8px 1px rgba(194, 194, 194, 1);
+}
+
+.btn {
+  margin-top: 10px;
+  background: #161825;
+  margin: 10px auto;
+  display: block;
+  color: white;
+  border-radius: 25px;
+  width: 90%;
+  height: 55px;
+  font-size: 13px;
+  font-weight: bold;
+  max-width: 260px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.btn:hover {
+  background: #161825;
+  opacity: 90%;
+}
+
+.serverIdentificator {
+  text-align: center;
+}
+
+.resultFrame {
+  display: grid;
+  text-align: center;
+}
+
+video {
+  grid-area: 1 / 1 / 2 / 2;
+  margin: 0 auto;
+}
+canvas {
+  grid-area: 1 / 1 / 2 / 2;
+  margin: 0 auto;
+}
+
+.calc {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  width: 48%;
+}
+
+.frames {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#encerrar {
+  background: red;
+  opacity: 85%;
+}
+
+#encerrar:hover {
+  opacity: 75%;
+}
+
+.dropdown-toggle {
+  margin: 0;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.reportHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.reportIcon{
+  margin-top: 6px;
+}
+
+@media screen and (max-width: 750px) {
+  .box {
+    width: 80%;
+    margin-top: 15%;
+  }
+  .contnr {
+    margin-top: 10%;
+  }
+  h3 {
+    width: 80%;
+  }
+  video {
+    width: 100%;
+  }
+  canvas {
+    width: 100%;
+  }
+  .calc {
+    width: 100%;
+  }
+}
